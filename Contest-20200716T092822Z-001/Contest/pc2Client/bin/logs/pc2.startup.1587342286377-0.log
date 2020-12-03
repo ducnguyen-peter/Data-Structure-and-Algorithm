@@ -1,0 +1,20 @@
+200420 072446.971|CONFIG|main|setFileHandlers|Now logging to C:\Users\Do Hung Anh\Desktop\CacMonHoc\CauTrucDuLieuVaGiaiThuat\Contest\pc2Client\bin\logs directory.
+200420 072446.986|INFO|main|info|
+200420 072447.018|INFO|main|info|Version 9.6.0 20190102 (Wednesday, January 2nd 2019 01:20 UTC) Java ver 11.0.6 build 5102 Windows 10 10.0 (amd64) 
+200420 072447.033|INFO|main|startLog|Working directory is C:\Users\Do Hung Anh\Desktop\CacMonHoc\CauTrucDuLieuVaGiaiThuat\Contest\pc2Client\bin
+200420 072447.205|INFO|main|startLog|Process id is 3876@DESKTOP-76SCFF5
+200420 072447.205|INFO|main|start|Starting ConnectionManager...
+200420 072448.111|INFO|main|start|Started ConnectionManager
+200420 072448.127|INFO|main|setClientServerAndPort|INIFile File location: file:/C:/Users/Do%20Hung%20Anh/Desktop/CacMonHoc/CauTrucDuLieuVaGiaiThuat/Contest/pc2Client/bin/pc2v9.ini
+200420 072448.127|INFO|main|setClientServerAndPort|setClientServerAndPort 203.162.88.119 parsed as 203.162.88.119 port 50002
+200420 072448.127|INFO|main|info|Contacting server at 203.162.88.119:50002
+200420 072448.127|INFO|main|connectToMyServer|Connecting to 203.162.88.119:50002
+200420 072450.268|INFO|main|<init>|IO Exception:203.162.88.119
+200420 072450.268|INFO|main|connectToMyServer|Could not ConnectToMyServer()
+200420 072450.268|INFO|main|start|Exception contacting my server 
+|edu.csus.ecs.pc2.core.transport.TransportException: Connection refused: connect
+|    at edu.csus.ecs.pc2.core.transport.TransportManager.connectToMyServer (TransportManager.java:197)
+|    at edu.csus.ecs.pc2.core.transport.connection.ConnectionManager.connectToMyServer (ConnectionManager.java:99)
+|    at edu.csus.ecs.pc2.core.InternalController.start (InternalController.java:2853)
+|    at edu.csus.ecs.pc2.Starter.main (Starter.java:49)
+200420 072450.283|INFO|main|info|Unable to contact server at 203.162.88.119:0 Connection refused: connect

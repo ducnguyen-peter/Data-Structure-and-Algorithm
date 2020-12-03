@@ -1,0 +1,66 @@
+200418 201159.838|CONFIG|main|setFileHandlers|Now logging to C:\Users\Do Hung Anh\Desktop\CacMonHoc\CauTrucDuLieuVaGiaiThuat\Contest\pc2Client\bin\logs directory.
+200418 201159.838|INFO|main|info|
+200418 201159.854|INFO|main|info|Version 9.6.0 20190102 (Wednesday, January 2nd 2019 01:20 UTC) Java ver 11.0.6 build 5102 Windows 10 10.0 (amd64) 
+200418 201159.854|INFO|main|startLog|Working directory is C:\Users\Do Hung Anh\Desktop\CacMonHoc\CauTrucDuLieuVaGiaiThuat\Contest\pc2Client\bin
+200418 201159.885|INFO|main|startLog|Process id is 2992@DESKTOP-76SCFF5
+200418 201159.885|INFO|main|start|Starting ConnectionManager...
+200418 201200.088|INFO|main|start|Started ConnectionManager
+200418 201200.088|INFO|main|setClientServerAndPort|INIFile File location: file:/C:/Users/Do%20Hung%20Anh/Desktop/CacMonHoc/CauTrucDuLieuVaGiaiThuat/Contest/pc2Client/bin/pc2v9.ini
+200418 201200.088|INFO|main|setClientServerAndPort|setClientServerAndPort 203.162.88.119 parsed as 203.162.88.119 port 50002
+200418 201200.088|INFO|main|info|Contacting server at 203.162.88.119:50002
+200418 201200.088|INFO|main|connectToMyServer|Connecting to 203.162.88.119:50002
+200418 201200.182|INFO|Thread-0|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/203.162.88.119,port=50002,localport=55062]-6149056412164633229)
+200418 201200.201|INFO|Thread-0|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/203.162.88.119,port=50002,localport=55062]-6149056412164633229 key is com.sun.crypto.provider.DESKey@fffe7d54
+200418 201200.202|INFO|Thread-0|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+200418 201200.203|INFO|Thread-0|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    3735c0cf 8b74c176 9758b6e2 1e10cce4 7fb6190e 21150ad0 92e3aff2 f4d12068
+    56c34bd9 940d3edd 61e497b0 d82dad9a be966b01 9d55a6b2 8e70c283 a6eef820
+    0e90559a 79afe6fb 629d5e39 555cb960 ac76ae91 b17cac09 419515ca d1412bf1
+    e4ea4d8f 378acbc5 d38a0021 fc378c9b 0d80eb65 68a14df4 d067ca91 c0d56598
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+200418 201200.204|INFO|Thread-0|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@4fa4a79c
+200419 082337.400|INFO|Thread-0|receive|Exception in receive for Socket[addr=/203.162.88.119,port=50002,localport=55062]-6149056412164633229
+|java.net.SocketTimeoutException: Read timed out
+|    at java.net.SocketInputStream.socketRead0 (SocketInputStream.java:-2)
+|    at java.net.SocketInputStream.socketRead (SocketInputStream.java:115)
+|    at java.net.SocketInputStream.read (SocketInputStream.java:168)
+|    at java.net.SocketInputStream.read (SocketInputStream.java:140)
+|    at java.net.SocketInputStream.read (SocketInputStream.java:200)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (ObjectInputStream.java:2778)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (ObjectInputStream.java:3105)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (ObjectInputStream.java:3115)
+|    at java.io.ObjectInputStream.readObject0 (ObjectInputStream.java:1597)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:464)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:422)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:151)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:65)
+200419 082337.872|FINER|Thread-0|run|THROW
+|edu.csus.ecs.pc2.core.transport.TransportException: Read timed out
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:161)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:65)
+200419 082337.972|INFO|Thread-0|receive|SocketException in receive for Socket[addr=/203.162.88.119,port=50002,localport=55062]-6149056412164633229
+|java.net.SocketException: Connection reset
+|    at java.net.SocketInputStream.read (SocketInputStream.java:186)
+|    at java.net.SocketInputStream.read (SocketInputStream.java:140)
+|    at java.net.SocketInputStream.read (SocketInputStream.java:200)
+|    at java.io.ObjectInputStream$PeekInputStream.peek (ObjectInputStream.java:2778)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peek (ObjectInputStream.java:3105)
+|    at java.io.ObjectInputStream$BlockDataInputStream.peekByte (ObjectInputStream.java:3115)
+|    at java.io.ObjectInputStream.readObject0 (ObjectInputStream.java:1597)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:464)
+|    at java.io.ObjectInputStream.readObject (ObjectInputStream.java:422)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:151)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:65)
+200419 082337.972|FINER|Thread-0|run|THROW
+|edu.csus.ecs.pc2.core.transport.TransportException: Connection reset
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerThread.receive (ConnectionHandlerThread.java:155)
+|    at edu.csus.ecs.pc2.core.transport.ConnectionHandlerClientThread.run (ConnectionHandlerClientThread.java:65)

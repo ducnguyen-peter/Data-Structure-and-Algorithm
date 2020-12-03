@@ -1,0 +1,30 @@
+200409 135338.904|CONFIG|main|setFileHandlers|Now logging to C:\Users\Do Hung Anh\Desktop\CacMonHoc\CauTrucDuLieuVaGiaiThuat\Contest\pc2Client\bin\logs directory.
+200409 135338.919|INFO|main|info|
+200409 135338.950|INFO|main|info|Version 9.6.0 20190102 (Wednesday, January 2nd 2019 01:20 UTC) Java ver 11.0.6 build 5102 Windows 10 10.0 (amd64) 
+200409 135338.966|INFO|main|startLog|Working directory is C:\Users\Do Hung Anh\Desktop\CacMonHoc\CauTrucDuLieuVaGiaiThuat\Contest\pc2Client\bin
+200409 135339.122|INFO|main|startLog|Process id is 10908@DESKTOP-76SCFF5
+200409 135339.138|INFO|main|start|Starting ConnectionManager...
+200409 135340.294|INFO|main|start|Started ConnectionManager
+200409 135340.310|INFO|main|setClientServerAndPort|INIFile File location: file:/C:/Users/Do%20Hung%20Anh/Desktop/CacMonHoc/CauTrucDuLieuVaGiaiThuat/Contest/pc2Client/bin/pc2v9.ini
+200409 135340.326|INFO|main|setClientServerAndPort|setClientServerAndPort 203.162.88.119 parsed as 203.162.88.119 port 50002
+200409 135340.326|INFO|main|info|Contacting server at 203.162.88.119:50002
+200409 135340.326|INFO|main|connectToMyServer|Connecting to 203.162.88.119:50002
+200409 135340.466|INFO|Thread-0|receiveUnencrypted|receiveUnencrypted(TransportWrapper, ConnectionHandlerID=Socket[addr=/203.162.88.119,port=50002,localport=58075]-2875394049830611338)
+200409 135340.576|INFO|Thread-0|receiveUnencrypted|receiveUnencrypted Made a secret key for Socket[addr=/203.162.88.119,port=50002,localport=58075]-2875394049830611338 key is com.sun.crypto.provider.DESKey@186aa
+200409 135340.576|INFO|Thread-0|getPublicKeyPacket|Generating Unencrypted Public Key Packet
+200409 135340.576|INFO|Thread-0|getPublicKeyPacket|checking key:= SunJCE Diffie-Hellman Public Key:
+y:
+    da2f7d54 c7d03253 b4b906b6 02895f4d 1f05f023 06e16200 b5b9668b ed2be496
+    9d2af8ae a6591036 bcf48235 0eb5545a 7ec161ac f148ca05 12e4eb7d 17604c89
+    05ba0446 c5e4caf1 a6850940 fe86762c 68c3e72d 31b9c1d7 bffc0ffa 8e862296
+    b43eeb3d 94738f57 903c2024 c36e8adf 860df379 06d78765 b9018262 ac9c48f5
+p:
+    f488fd58 4e49dbcd 20b49de4 9107366b 336c380d 451d0f7c 88b31c7c 5b2d8ef6
+    f3c923c0 43f0a55b 188d8ebb 558cb85d 38d334fd 7c175743 a31d186c de33212c
+    b52aff3c e1b12940 18118d7c 84a70a72 d686c403 19c80729 7aca950c d9969fab
+    d00a509b 0246d308 3d66a45d 419f9c7c bd894b22 1926baab a25ec355 e92f78c7
+g:
+    02
+l:
+    512
+200409 135340.576|INFO|Thread-0|getPublicKeyPacket|packet:= edu.csus.ecs.pc2.core.transport.TransportWrapper@530681b
